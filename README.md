@@ -23,3 +23,9 @@ it. The default out of the box is Bash, but it's hard to miss, because macOS Cat
 Bash is set up so that opening it notifies you to switch to ZSH.
 
 Restart VS Code (not just the integrated terminal) in order to make it source anew.
+
+## Yarn
+
+Yarn has a "built-in NVM". To pin a version, just run:
+
+`yarn policies set-version ${version}`
